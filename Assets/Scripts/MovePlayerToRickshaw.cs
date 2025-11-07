@@ -3,7 +3,7 @@ using UnityEngine;
 public class MovePlayerToRickshaw : MonoBehaviour
 {
 
-    public float moveSpeed = 2f;
+    public float moveSpeed = 1f;
     public Transform Player;
     private bool reachedRickshaw = false;
     private Transform rickshaw;
@@ -12,7 +12,6 @@ public class MovePlayerToRickshaw : MonoBehaviour
         rickshaw = GameObject.FindGameObjectWithTag("Rickshaw").transform;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!reachedRickshaw)
@@ -22,7 +21,8 @@ public class MovePlayerToRickshaw : MonoBehaviour
             if (Vector3.Distance(transform.position, rickshaw.position) < 0.2f)
             {
                 reachedRickshaw = true;
-                Player.SetParent(rickshaw);
+                // Player.SetParent(rickshaw);
+                Destroy(gameObject);
                 StartCoroutine(StartFlying());
             }
         }

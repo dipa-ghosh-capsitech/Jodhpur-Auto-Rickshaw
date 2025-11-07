@@ -16,6 +16,7 @@ public class BackgroundController : MonoBehaviour
     void Update()
     {
         offSet += (Time.deltaTime * scrollSpeed) / 10f;
+        offSet %= 1f; 
         mat.SetTextureOffset("_MainTex", new Vector2(offSet,0));
     }
 }

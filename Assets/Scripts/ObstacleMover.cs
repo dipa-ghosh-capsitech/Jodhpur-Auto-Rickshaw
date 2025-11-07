@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ObstacleMover : MonoBehaviour
 {
- public float speed = 3f;
+  public float speed = 5f;
+    public float destroyX = -20f;
 
     void Update()
     {

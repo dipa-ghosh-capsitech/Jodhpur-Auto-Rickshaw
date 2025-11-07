@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: fb10f2b7d035bf2478f6f338cf9b0fb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8850299662524627377
+    second: waliking-removebg-preview_0
+  - first:
+      213: 7198343696758660144
+    second: waliking-removebg-preview_1
+  - first:
+      213: 1379261891484908446
+    second: waliking-removebg-preview_2
+  - first:
+      213: -2716376116897661614
+    second: waliking-removebg-preview_3
+  - first:
+      213: 5063904706312139469
+    second: waliking-removebg-preview_4
+  - first:
+      213: -6947233616561175626
+    second: waliking-removebg-preview_5
+  - first:
+      213: -621341507872138517
+    second: waliking-removebg-preview_6
+  - first:
+      213: -7263541104486679230
+    second: waliking-removebg-preview_7
+  - first:
+      213: -7729594695865142196
+    second: waliking-removebg-preview_8
+  - first:
+      213: -2525525166661900198
+    second: waliking-removebg-preview_9
+  - first:
+      213: 4403842737869188483
+    second: waliking-removebg-preview_10
+  - first:
+      213: 2486793231543008584
+    second: waliking-removebg-preview_11
+  - first:
+      213: 7625501834065859239
+    second: waliking-removebg-preview_12
+  - first:
+      213: -2290452239024255385
+    second: waliking-removebg-preview_13
+  - first:
+      213: 2403498699583632049
+    second: waliking-removebg-preview_14
+  - first:
+      213: 5164209507535090978
+    second: waliking-removebg-preview_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: waliking-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 157
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3083175d7769f90800000000000000
+      internalID: -6947233616561175626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waliking-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 158
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea531bc03d8067f0800000000000000
+      internalID: -621341507872138517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waliking-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 157
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d7f9f69d7b23b90800000000000000
+      internalID: -7263541104486679230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waliking-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 157
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44f637c396fab490800000000000000
+      internalID: -7729594695865142196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waliking-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 158
+        width: 108
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58eec1ed3883fcd0800000000000000
+      internalID: -2525525166661900198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waliking-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 157
+        width: 105
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d606533a79d1d30800000000000000
+      internalID: 4403842737869188483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 80d3c695221a22e4484e4ef3f38eae1b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      waliking-removebg-preview_0: -8850299662524627377
+      waliking-removebg-preview_1: 7198343696758660144
+      waliking-removebg-preview_10: 4403842737869188483
+      waliking-removebg-preview_11: 2486793231543008584
+      waliking-removebg-preview_12: 7625501834065859239
+      waliking-removebg-preview_13: -2290452239024255385
+      waliking-removebg-preview_14: 2403498699583632049
+      waliking-removebg-preview_15: 5164209507535090978
+      waliking-removebg-preview_2: 1379261891484908446
+      waliking-removebg-preview_3: -2716376116897661614
+      waliking-removebg-preview_4: 5063904706312139469
+      waliking-removebg-preview_5: -6947233616561175626
+      waliking-removebg-preview_6: -621341507872138517
+      waliking-removebg-preview_7: -7263541104486679230
+      waliking-removebg-preview_8: -7729594695865142196
+      waliking-removebg-preview_9: -2525525166661900198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
