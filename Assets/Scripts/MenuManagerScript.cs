@@ -2,23 +2,26 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuManagerScript : MonoBehaviour
 {
     public GameObject mainMenuPanel;
+    public GameObject TapToPlayPanel;
     public GameObject settingsPanel;
     public GameObject pausePanel;
     public GameObject gameUiPanel;
     public GameObject gameoverPanel;
+    public GameObject playEnter;
  
     AudioManagerScript audioManagerScript;
 
     public bool isPaused = false;
     public static bool isRestarting = false;
-    
+
     void Start()
     {
-        audioManagerScript=GameObject.Find("AudioManager").GetComponent<AudioManagerScript>(); 
+        audioManagerScript = GameObject.Find("AudioManager").GetComponent<AudioManagerScript>();
         if (isRestarting)
         {
             mainMenuPanel.SetActive(false);
@@ -36,13 +39,24 @@ public class MenuManagerScript : MonoBehaviour
             gameUiPanel.SetActive(false);
         }
     }
+    public void TaptoPLay()
+    {
+        
+    }
+
     public void StartGame()
     {
         gameUiPanel.SetActive(true);
         mainMenuPanel.SetActive(false);
         settingsPanel.SetActive(false);
+        playEnter.SetActive(false);
 
         Time.timeScale = 1f;
+    }
+    public void play()
+    {
+        playEnter.SetActive(true);
+        mainMenuPanel.SetActive(false);
     }
     public void OnSettingPanel()
     {

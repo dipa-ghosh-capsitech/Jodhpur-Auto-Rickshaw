@@ -46,7 +46,7 @@ public class RickshawFly : MonoBehaviour
                 Down();
             }
 
-            if (Input.touchCount > 0)
+            if (Input.touchCount > 0 )
             {
                 Touch touch = Input.GetTouch(0);
                 if (touch.phase == TouchPhase.Began)
